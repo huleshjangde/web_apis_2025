@@ -70,3 +70,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+#i2 {
+  background-color: red !important;
+  width: 100px;
+  height: 100px;
+}
+.WACPageImg {
+  width: 100px;
+  height: 00px !important;
+  scale: 0.5;
+}
