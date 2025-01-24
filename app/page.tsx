@@ -5,10 +5,18 @@ const Test = () => {
   const viewerUrl = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
     documentUrl,
   )}`;
+  const viewerUr2 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
+  const viewerUr4 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
 
   return (
     <iframe
-      src={viewerUrl}
+      src={`https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+        documentUrl,
+      )}`}
       style={{
         width: '100vw',
         height: '100vh',
