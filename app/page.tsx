@@ -13,6 +13,12 @@ const Test = () => {
   const viewerUr4 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
     documentUrl,
   )}`;
+  const viewerUr47 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
+  const viewerUr7 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
 
   return (
     // <iframe
