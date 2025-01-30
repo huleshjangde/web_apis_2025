@@ -7,6 +7,12 @@ const Test = () => {
   const viewerUr7 = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
     documentUrl,
   )}`;
+  const viewerUr7ad = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
+  const viewerUr7da = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
+    documentUrl,
+  )}`;
 
   return (
     // <iframe
