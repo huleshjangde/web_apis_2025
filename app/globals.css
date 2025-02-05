@@ -81,3 +81,6 @@ body {
   height: 00px !important;
   scale: 0.5;
 }
+.hr {
+  display: block;
+}
