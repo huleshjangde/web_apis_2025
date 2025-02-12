@@ -1,4 +1,4 @@
-import { Counter } from '@/components/Counter';
+import SpeechToText from '@/components/speech-to-text';
 
 const Test = () => {
   const documentUrl =
@@ -22,7 +22,7 @@ const Test = () => {
     //   title="Office Document Viewer"
     // />
     <>
-      <Counter />
+      <SpeechToText />
     </>
   );
 };
